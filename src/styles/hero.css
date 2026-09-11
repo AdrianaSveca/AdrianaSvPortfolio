@@ -1,0 +1,74 @@
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.heroInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.heroButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.heroButtons button {
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+
+.primaryButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 15px 2px rgba(221, 0, 255, 0.274);
+
+}
+
+.secondaryButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 15px 2px rgba(221, 0, 255, 0.274);
+}
+
+.primaryButton {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.secondaryButton {
+    background-color: transparent;
+    color: white;
+    border: 1px solid var(--primary);
+}
+
+.heroHeading {
+    color: var(--text-primary);
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heroSubHeading {
+    color: var(--text-secondary);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.heroDescription {
+    color: var(--text-secondary);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    max-width: 550px;
+}
