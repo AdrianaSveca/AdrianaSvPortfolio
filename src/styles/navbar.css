@@ -10,3 +10,15 @@ ul {
     display: flex;
     gap: 15px;
 }
+@keyframes cursor {
+    0%, 50% {
+        opacity:0;
+    }
+
+    51%, 100% {
+        opacity:1;
+    }
+}
+.cursor{
+    animation : cursor 1s infinite;
+}
