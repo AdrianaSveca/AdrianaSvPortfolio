@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--background);
 }
 
 .heroInformation {
@@ -71,4 +70,16 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     max-width: 550px;
+}
+@keyframes cursor {
+    0%, 50% {
+        opacity:0;
+    }
+
+    51%, 100% {
+        opacity:1;
+    }
+}
+.cursor{
+    animation : cursor 1s infinite;
 }
