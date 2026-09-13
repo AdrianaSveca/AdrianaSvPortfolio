@@ -1,0 +1,15 @@
+.skills{
+    color:white;
+    padding:50px;
+
+}
+.skillsHeading{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.skillCards{
+    display:flex;
+    justify-content: space-evenly;
+}
