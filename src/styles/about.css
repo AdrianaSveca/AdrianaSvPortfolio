@@ -1,0 +1,27 @@
+.about{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    gap: 15px;
+
+}
+.aboutLeft{
+    flex: 1;
+
+}
+.aboutRight{
+    flex: 1;
+    
+
+}
+.aboutLinks{
+    
+}
+h1{
+    
+}
+.aboutPurple{
+    color:rgba(255, 22, 255, 0.697);
+}

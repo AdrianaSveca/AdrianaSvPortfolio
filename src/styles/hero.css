@@ -6,6 +6,42 @@
     align-items: center;
 }
 
+.heroSection {
+    position: relative;
+    background-image:
+        radial-gradient(circle at 30% 80%,
+            rgba(255, 255, 255, 0.079) 1px,
+            transparent 1px),
+        radial-gradient(circle at 30% 70%,
+            rgba(115, 44, 182, 0.218) 1px,
+            transparent 1px),
+        radial-gradient(circle,
+            rgba(124, 58, 237, 0.089),
+            transparent 60%),
+        repeating-linear-gradient(to right,
+            transparent 0px,
+            transparent 49px,
+            rgba(124, 58, 237, 0.088) 50px),
+
+        repeating-linear-gradient(to bottom,
+            transparent 0px,
+            transparent 49px,
+            rgba(124, 58, 237, 0.108) 50px);
+
+    background-size:
+        120px 120px,
+        170px 170px,
+        100% 100%,
+        auto,
+        auto;
+    background-position:
+        0 0,
+        40px 70px,
+        center,
+        0 0,
+        0 0;
+}
+
 .heroInformation {
     display: flex;
     flex-direction: column;
@@ -71,15 +107,20 @@
     font-size: 18px;
     max-width: 550px;
 }
+
 @keyframes cursor {
-    0%, 50% {
-        opacity:0;
+
+    0%,
+    50% {
+        opacity: 0;
     }
 
-    51%, 100% {
-        opacity:1;
+    51%,
+    100% {
+        opacity: 1;
     }
 }
-.cursor{
-    animation : cursor 1s infinite;
+
+.cursor {
+    animation: cursor 1s infinite;
 }

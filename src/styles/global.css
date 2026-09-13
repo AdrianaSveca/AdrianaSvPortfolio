@@ -8,41 +8,6 @@
 }
 
 body {
-    background-image:
-        radial-gradient(circle at 40% 80%,
-            rgba(255, 255, 255, 0.141) 1px,
-            transparent 1px),
-        radial-gradient(circle at 10% 90%,
-            rgba(115, 44, 182, 0.203) 1px,
-            transparent 1px),
-        radial-gradient(circle,
-            rgba(124, 58, 237, 0.089),
-            transparent 60%),
-        repeating-linear-gradient(to right,
-            transparent 0px,
-            transparent 49px,
-            rgba(124, 58, 237, 0.088) 50px),
-
-        repeating-linear-gradient(to bottom,
-            transparent 0px,
-            transparent 49px,
-            rgba(124, 58, 237, 0.108) 50px);
-
-    background-size:
-    120px 120px,
-    170px 170px,
-    100% 100%,
-    auto,
-    auto;
-    background-position:
-        0 0,
-        40px 70px,
-        center,
-        0 0,
-        0 0;
-
-
-
     background-color: var(--background);
 
     font-family: "Outfit", sans-serif;
