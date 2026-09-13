@@ -14,8 +14,8 @@ function About() {
                         and clients love.
                     </p>
                     <p>Outside of coursework, I have built and deployed client websites for small businesses and
-                        developed a short horror game with custom assets made in blender. Im looking for grad roles in
-                        software engineering, fullstack and anything to do with tech. </p>
+                        developed a short horror game with custom assets made in Blender. Im looking for graduate roles in
+                        software engineering, full-stack development and related technical roles. </p>
                     <div className="aboutLinks">
                         <a href="">Download Resume</a>
                         <a href="">Github</a>
@@ -33,9 +33,9 @@ function About() {
                         <p>Github Commits in the past year</p>
                     </div>
                     <div className="aboutStats">
-                        <h2>3+</h2>
-                        <p>Tech Stacks</p>
-                        <p>React • Laravel • Unity</p>
+                        <h2>5+</h2>
+                        <p>Projects Built</p>
+                        <p>Web • Games • Clients</p>
                     </div>
                     <div className="aboutStats">
                         <h2>2027</h2>

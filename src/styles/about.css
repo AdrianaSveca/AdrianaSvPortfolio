@@ -1,27 +1,80 @@
-.about{
-     display: flex;
+.about {
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: center;
+    padding: 55px;
     color: white;
     gap: 15px;
 
 }
-.aboutLeft{
-    flex: 1;
+
+.aboutLeft {
+    width: 350px;
+    padding: 20px;
 
 }
-.aboutRight{
-    flex: 1;
-    
 
+.aboutRight {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 500px;
+    height: 100%;
 }
-.aboutLinks{
-    
+
+.aboutStats {
+    border: 1px solid #9422ff51;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #46315a12, #62314a1e)
 }
-h1{
-    
+
+.aboutStats:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, #8400ff0f, #7b1d4e32)
 }
-.aboutPurple{
-    color:rgba(255, 22, 255, 0.697);
+
+.aboutPurple {
+    background: linear-gradient(to right, #a855f7, #ec4899);
+    background-clip: text;
+    color: transparent;
+}
+
+.aboutStats p {
+    color: rgb(195, 195, 195);
+    font-weight: 200;
+}
+
+.aboutLeft p {
+    color: rgb(224, 224, 224);
+    font-weight: 200;
+}
+
+
+h5 {
+    background: linear-gradient(to right, #ba70fff2, #ff0080);
+    background-clip: text;
+    color: transparent;
+}
+
+.aboutLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.aboutStats h2 {
+    background: linear-gradient(to right, #70ffc6d6, #00aeffd2);
+    background-clip: text;
+    color: transparent;
+}
+
+.aboutLinks a:hover {
+    background: linear-gradient(to right, #ba70fff2, #ff0080);
+    background-size: 200% 100%;
+    background-position: 100%;
+    background-clip: text;
+    color: transparent;
+    transition: background-position 0.4s ease;
 }

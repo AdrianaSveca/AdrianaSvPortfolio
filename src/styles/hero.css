@@ -8,40 +8,48 @@
 
 .heroSection {
     position: relative;
-    background-image:
-        radial-gradient(circle at 30% 80%,
-            rgba(255, 255, 255, 0.079) 1px,
-            transparent 1px),
-        radial-gradient(circle at 30% 70%,
-            rgba(115, 44, 182, 0.218) 1px,
-            transparent 1px),
-        radial-gradient(circle,
-            rgba(124, 58, 237, 0.089),
-            transparent 60%),
-        repeating-linear-gradient(to right,
-            transparent 0px,
-            transparent 49px,
-            rgba(124, 58, 237, 0.088) 50px),
 
-        repeating-linear-gradient(to bottom,
+    background-image:
+        radial-gradient(circle at 8% 18%, rgba(255, 255, 255, 0.441) 1px, transparent 1px),
+        radial-gradient(circle at 17% 67%, rgba(255, 255, 255, 0.39) 1px, transparent 1px),
+        radial-gradient(circle at 31% 34%, rgba(255, 255, 255, 0.263) 1px, transparent 1px),
+        radial-gradient(circle at 46% 79%, rgba(255, 255, 255, 0.826) 1px, transparent 1px),
+        radial-gradient(circle at 61% 22%, rgba(255, 255, 255, 0.677) 1px, transparent 1px),
+        radial-gradient(circle at 74% 63%, rgba(255, 255, 255, 0.829) 1px, transparent 1px),
+        radial-gradient(circle at 88% 29%, rgba(255, 255, 255, 0.553) 1px, transparent 1px),
+
+        radial-gradient(
+            circle,
+            rgba(124, 58, 237, 0.089),
+            transparent 60%
+        ),
+
+        repeating-linear-gradient(
+            to right,
             transparent 0px,
             transparent 49px,
-            rgba(124, 58, 237, 0.108) 50px);
+            rgba(124, 58, 237, 0.088) 50px
+        ),
+
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0px,
+            transparent 49px,
+            rgba(124, 58, 237, 0.108) 50px
+        );
 
     background-size:
-        120px 120px,
-        170px 170px,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
         100% 100%,
         auto,
         auto;
-    background-position:
-        0 0,
-        40px 70px,
-        center,
-        0 0,
-        0 0;
 }
-
 .heroInformation {
     display: flex;
     flex-direction: column;
