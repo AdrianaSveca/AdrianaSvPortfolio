@@ -4,12 +4,39 @@
 
 }
 .skillsHeading{
-    display:flex;
-    justify-content: center;
+    text-align: center;
     align-content: center;
+    padding-bottom: 30px;
 }
 
 .skillCards{
     display:flex;
     justify-content: space-evenly;
+}
+.skillCard{
+    border: 1px solid #22e2ff51;
+    padding: 25px;
+    width:230px;
+    gap: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #31515a12, #3162591e);
+    align-items: center;
+}
+.skillsList{
+    background-color: rgba(14, 70, 75, 0.336);
+    padding:5px;
+    width:50%;
+    
+    border-radius: 10px;
+    text-align: center;
+}
+.skillsList:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, #00e5ff0f, #1d7b7832)
+}
+
+.skillCard h3{
+    background: linear-gradient(to right, #70eefff2, #00ffdd);
+    background-clip: text;
+    color: transparent;
 }
