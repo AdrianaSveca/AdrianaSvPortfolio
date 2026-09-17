@@ -27,9 +27,15 @@
 
 .clientCard {
     padding: 25px;
-    border: 1px solid rgba(168, 85, 247, 0.2);
+    border: 1px solid rgba(85, 247, 228, 0.2);
     border-radius: 12px;
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(255, 255, 255, 0.045);
+}
+.clientCard h5{
+    background: linear-gradient(to right,  #a5f1f8, #8effd2);
+    background-clip: text;
+    color: transparent;
+
 }
 
 .clientSpan{
@@ -43,7 +49,7 @@
 }
 
 .clientLanguage {
-    background-color: #a955f725;
+    background-color: #55f7ec25;
     border-radius: 20px;
     padding: 5px 10px;
 

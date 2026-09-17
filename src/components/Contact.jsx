@@ -1,5 +1,8 @@
+import '../styles/contact.css'
+import { useForm } from "@formspree/react";
 
 function Contact() {
+    const [state, handleSubmit] = useForm("meaoqggy");
     return (
         <>
             <div className="contact">
@@ -25,17 +28,18 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contactForm">
-                    <form>
+                    <form onSubmit={handleSubmit}>
                         <label>Name</label>
-                        <input type="text" />
+                        <input type="text" name="name" />
 
                         <label>Email</label>
-                        <input type="email" />
+                        <input type="email" name="email" />
 
                         <label>Message</label>
-                        <textarea></textarea>
+                        <textarea name="message"></textarea>
 
-                        <button type="submit">Send Message</button>
+                        <button type="submit">{state.submitting? "Sending..." : "Send Message"}</button>
+                        { state.succeeded && <p>Sent.</p>}
                     </form>
 
                 </div>

@@ -5,6 +5,7 @@ import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Client from './components/Client.jsx'
+import Contact from './components/Contact.jsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Client/>
+      <Contact/>
 
     </>
   )
