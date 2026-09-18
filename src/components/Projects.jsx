@@ -4,7 +4,7 @@ import '../styles/projects.css'
 function Projects(){
     return(
         <>
-    <div className = "projects">
+    <div className = "projects" id="projects">
         <div className = "projectsHeading">
             <p className="projectSubheading"> 03 / projects </p>
             <h1>Personal <span>Projects</span></h1>

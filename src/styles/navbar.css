@@ -1,12 +1,12 @@
 nav {
-    position: absolute;
+    position: sticky;
+    top:0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: rgba(179, 0, 255, 0.621);
     background: rgba(0, 0, 0, 0);
     backdrop-filter: blur(1px);
-    top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
@@ -21,4 +21,7 @@ ul {
 }
 a{
     text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
 }

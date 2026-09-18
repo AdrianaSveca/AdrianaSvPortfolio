@@ -25,13 +25,13 @@ function Hero() {
                 if (char < currentTitle.length) {
                     setChar(char + 1);
                 } else {
-                
+
                     setIsDeleting(true);
                 }
 
             }
 
-            
+
             else {
 
                 if (char > 0) {
@@ -73,13 +73,13 @@ function Hero() {
             </div>
 
             <div className="heroButtons">
-                <button className="primaryButton">
+                <a href="#projects" className="primaryButton">
                     View My Work
-                </button>
+                </a>
 
-                <button className="secondaryButton">
+                <a href="#contact" className="secondaryButton">
                     Contact Me
-                </button>
+                </a>
             </div>
 
         </section>

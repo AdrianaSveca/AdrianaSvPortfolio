@@ -4,7 +4,7 @@ import '../styles/clients.css'
 function Client(){
     return(
         <>
-    <div className = "clients">
+    <div className = "clients" id="clients">
         <div className = "clientsHeading">
             <p className="clientSubheading"> 04 / Clients </p>
             <h1>Client <span className="clientSpan">Work</span></h1>

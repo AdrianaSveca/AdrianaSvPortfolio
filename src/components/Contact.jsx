@@ -5,7 +5,7 @@ function Contact() {
     const [state, handleSubmit] = useForm("meaoqggy");
     return (
         <>
-            <div className="contact">
+            <div className="contact" id="contact">
                 <div className="contactHeading">
                     <p>05 / contact</p>
                     <h1>Let's Talk</h1>
