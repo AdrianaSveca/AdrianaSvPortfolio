@@ -21,29 +21,29 @@ function Client(){
                 <p className = "clientLanguage">HTML</p>
                 <p className = "clientLanguage">CSS</p>
                 </div>
-                <a href="">Visit Site</a>
+                <a href="https://dansden.co.uk/">Visit Site</a>
                 
             </div>
             <div className = "clientCard">
                 <h5>Anetas kitchen</h5>
-                <p className = "clientDescription">A Local Cafe and microbar located in Oldbury.</p>
+                <p className = "clientDescription"></p>
                <div className="clientLanguages">
                 <p className = "clientLanguage">React</p>
                 <p className = "clientLanguage">HTML</p>
                 <p className = "clientLanguage">CSS</p>
                 </div>
-                <a href="">Visit Site</a>
+                <a href="">Work In Progress</a>
                 
             </div>
             <div className = "clientCard">
                 <h5>Bromley Elite Carpet Flooring</h5>
-                <p className = "clientDescription">A Local Cafe and microbar located in Oldbury.</p>
+                <p className = "clientDescription"></p>
                <div className="clientLanguages">
                 <p className = "clientLanguage">React</p>
                 <p className = "clientLanguage">HTML</p>
                 <p className = "clientLanguage">CSS</p>
                 </div>
-                <a href="">Visit Site</a>
+                <a href="">Work In Progress</a>
                 
             </div>
             
